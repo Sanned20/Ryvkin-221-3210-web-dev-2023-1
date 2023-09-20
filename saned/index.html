@@ -1,0 +1,98 @@
+<!-- НЕ ЗАБУДЬ УДАЛИТЬ ВСЕ КОММЕНТЫ -->
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="scripts/script.js" defer></script>
+    <title>Home page</title>
+</head>
+<body>
+    <!-- readme.txt HTML 2. visually-hidden reference -->
+    <h1 class="visually-hidden">Домашняя страница Рывкина Александра Александровича</h1>
+    <header class="header" id="header">
+        <div class="header__wrapper">
+            <nav class="header__nav nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#about-me" class="nav__link">Обо мне</a></li>
+                    <li class="nav__item"><a href="#my-projects" class="nav__link">Мои проекты</a></li>
+                    <li class="nav__item"><a href="#my-contacts" class="nav__link">Мои контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section class="about-me" id="about-me">
+            <div class="about-me__wrapper">
+                <h2 class="about-me__title">Обо мне</h2>
+                <div class="about-me__image-wrapper">
+                    <img class="about-me__image" src="img/Saned.jpg" alt="Рывкин Александр Александрович">
+                </div>
+                <!-- Поменяй описание о себе -->
+                <p class="about-me__text">Всем здарова я падла усатая работаю в ООО "Рога и копыта"</p>
+            </div>
+        </section>
+        <section class="my-projects" id="my-projects">
+            <div class="my-projects__wrapper">
+                <!-- Можешь вместо проектов что-нибудь другое написать для таблицы,
+                    это первое что в голову пришло
+                    Если будешь менять, не забудь поменять и в хедере название -->
+                <h2 class="my-projects__title">Мои проекты</h2>
+                <!-- readme.txt HTML 1. BEM reference -->
+                <table class="my-projects__table table">
+                    <tbody class="table__body">
+                        <tr class="table__row">
+                            <td class="table__data">Проект 1</td>
+                            <td class="table__data">Проект 2</td>
+                            <td class="table__data">Проект 3</td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__data">Данные о проекте 1</td>
+                            <td class="table__data">Данные о проекте 2</td>
+                            <td class="table__data">Данные о проекте 3</td>
+                        </tr>
+                        <!-- Ты вроде на хостинг ниче не выкладывал, но на всякий добавил
+                        короче удали просто этот tr нахуй, если он не нужен -->
+                        <tr class="table__row">
+                            <td class="table__data">Ссылка на проект 1</td>
+                            <td class="table__data">Ссылка на проект 2</td>
+                            <td class="table__data">Ссылка на проект 3</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section class="my-contacts" id="my-contacts">
+            <div class="my-contacts__wrapper">
+                <h2 class="my-contacts__title">Мои контакты</h2>
+                <p class="my-contacts__text">Вы можете связаться со мной:</p>
+                <ul class="my-contacts__list">
+                    <li class="my-contacts__item">
+                        По телефону:
+                        <!-- Поменяй номер телефона -->
+                        <button class="my-contacts__phone" onclick="copyPhoneNumber()">+79771237</button>
+                    </li>
+                    <li class="my-contacts__item">
+                        По почте:
+                        <!-- Поменяй почту -->
+                        <a class="my-contacts__email" href="mailto:zaned@wb.ru">zaned@wb.ru</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__up up">
+                <a class="up__link" href="#header">Вверх&#8593;</a>
+            </div>
+            <p class="footer__copyright copyright">
+                <!-- Поменя номер группы -->
+                &#169; 2023 Copyright:&nbsp;<span class="copyright__name">Рывкин Александр Александрович</span>, группа я не помню какая
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
