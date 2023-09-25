@@ -1,0 +1,127 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: RobotoRegular;
+    color: #242426;
+}
+
+body {
+    background-color: #F2F2F2;
+}
+
+.header__wrapper, .about-me__wrapper, .my-projects__wrapper, .my-contacts__wrapper, .footer__wrapper {
+    max-width: 75%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: RobotoBold;
+    color: #F24405;
+    margin: 10px 0 5px 0
+}
+
+section {
+    margin-top: 30px;
+}
+section:first-child {
+    margin-top: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background-color: #D9A689;
+}
+
+.nav__list {
+    min-height: 50px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav__items {
+    align-self: center;
+}
+
+.about-me__image {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+.about-me__text {
+    margin-top: 5px;
+}
+
+.table{
+	width: 100%;
+	border-collapse:collapse;
+	border-spacing:0;
+	height: auto;
+}
+.table, .table__data {
+	border: 1px solid #242426;
+}
+.table__data {
+	padding: 3px;
+	width: 30px;
+	height: 35px;
+}
+
+.my-contacts__item {
+    margin-top: 10px;
+}
+.my-contacts__phone {
+    border: none;
+    background-color: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.my-contacts__email, .my-contacts__phone {
+    color: #D94F30;
+}
+
+.footer {
+    margin-top: 50px;
+    min-height: 50px;
+    background-color: #D9A689;
+}
+.footer__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.up {
+    display: inline-flex;
+    justify-content: end;
+    padding-top: 10px;
+}
+.copyright {
+    display: inline-flex;
+    justify-content: center;
+    min-height: 50px;
+    align-items: center;
+}
+.copyright__name {
+    font-family: RobotoBold;
+}
+
+@font-face {
+    font-family: "RobotoRegular";  
+    src: url("../fonts/Roboto-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+    }
+     
+@font-face{
+    font-family: "RobotoBold";
+    src: url("../fonts/Roboto-Bold.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+    }
