@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Форма обратной связи</title>
+</head>
+<body>
+    <form action="https://httpbin.org/post" method="post">
+        <div class="container">
+            <label for="fio">ФИО</label>
+            <input type="text" name = "fio" placeholder="Иванов И.И.">
+            <label for="email">Email</label>
+            <input type="text" name = "email" placeholder="ivanovii@gmail.com">
+            
+        </div>
+        <fieldset>
+            <legend>Как вы узнали о нас?</legend>
+            <input type="radio" name="radiobtn" id="" checked value="Ads"> <label for="radio">Реклама</label>
+            <input type="radio" name="radiobtn" id="" value="Frieds"> <label for="radio">Знакомые</label>
+        </fieldset>
+        <select name="selected1" id="select">
+            <option value="badreport">Жалоба</option>
+            <option value="goodreport">Пожелание</option>
+        </select>
+        <div class="form-group">
+            <fieldset>
+            <h6 class="header6">Сообщение</h6>
+            <textarea name="message" id="message" cols="30" rows="10">
+            </textarea>
+        </fieldset>
+        </div>
+        
+        <input type="submit" value="Отправить">
+    </form>
+    
+</body>
+</html>
