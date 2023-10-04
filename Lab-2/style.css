@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(37, 37, 38);
+    background-image: url(bg.jpg);
+    background-size:auto;
+    background-repeat: no-repeat;
+    font-size: 20px;
+}
+
+h1 {
+    display: block;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-weight: 100;
+    background-color: rgba(0, 0, 0, 0.495);
+    text-align: center;
+    margin-right: 100px;
+}
+
+.container {
+    position: inherit;
+}
+
+.form-group {
+    padding-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    padding-bottom: 40px;
+}
+
+.button {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.btn {
+    background-color: rgba(89, 242, 248, 0.164);
+    text-align: center;
+    border-style: groove;
+    padding: auto 30px;
+    display: block;
+    width: 200px;
+    color: rgb(231, 213, 213);
+    border-radius: 5px;
+    width: 25%;
+       
+}
+
+
+
+label {
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+input {
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+input#check {
+    display: inline;
+}
+
+input#fio,
+input#email,
+input#login,
+input#pass {
+    width: 70%;
+    height: 1.25rem;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+#checkboxLabel {
+    text-align: left;
+    display: inline;
+}
+
+legend {
+    color: white;
+    text-align: center;
+}
+
+input[type="radio"] {
+    display: inline;
+}
+input[type="text"] {
+    width: 40px;
+}
+
+fieldset label {
+    display: inline;
+}
+
+div#src {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+fieldset {
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+select {
+    
+    font-size: 20px;
+    
+    display: block;
+    margin: auto auto;
+    width: auto;
+    text-align: center;
+}
+
+textarea {
+    resize: none;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    font-size: 20px;
+    
+}
+
+input#file {
+    color: white;
+}
+
+input.inpbtn {
+    color: black;
+    border-radius: 5px;
+    width: 50%;
+    height: 3rem;
+    
+}
+
+
+.chkBox {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#singinform {
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
