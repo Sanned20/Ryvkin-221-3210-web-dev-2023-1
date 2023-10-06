@@ -80,7 +80,7 @@ a {
 }
 .my-contacts__phone {
     border: none;
-    background-color: none;
+    background-color: rgba(255, 0, 0, 0);
     cursor: pointer;
     font-size: 16px;
 }
